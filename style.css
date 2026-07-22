@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color:#d0341c;
+    color: white;
+}
+
+
+/* home button */
+.btn{
+    list-style: none;
+    font-size: medium;
+    height: 60px;
+    width: 100%;
+    background-color: #ff735c;
+    text-align: center;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* body left and right box */
+main{
+    display: flex;
+    align-items:center ;
+    margin-top: 60px ;
+    height: 60%;
+    width: 100%;
+}
+ 
+/* left text part */
+#left{
+    height: 100%;
+    width: 75%;
+    padding-left: 166px;
+}
+
+#left h1{
+    font-size: 35px;
+}
+
+#left h1 span{
+    color: #ff735c;
+}
+
+#left p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 18px;
+}
+
+/* right image part */
+#right img{
+    height: 45%;
+    width: 50%;
+    padding-left: 254px;
+}
+
+/* Contact us button */
+.contact{
+   margin-top: 50px;
+    padding: 15px 35px;
+    margin-left: 650px;
+    font-size: 25px;
+    background-color: #ff735c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.contact:hover{
+    cursor: pointer;
+    color:white;
+    background-color: #d0341c;
+}
+
+/* contact us box */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 650px;
+    width: 650px;
+    margin-top: 60px;
+    margin-left: 400px;
+
+}
+
+/* dropdown option */
+select{
+    height: 40px;
+    width: 260px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+
+/* font icons */
+i {
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+
+input{
+    width: 60%;
+    font-size: 25px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+label{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 420px;
+    height: 90px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 4px 4px;
+    margin: 12px 0;
+}
+
+/* submit button */
+.submit{
+    margin-top: 40px;
+    padding: 15px 35px;
+    margin-left: 150px;
+    font-size: 25px;
+    background-color: #ff735c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.submit:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #d0341c;
+    
+}
+
+/* animation parent  */
+#animation{
+    margin-top: 15px;
+    height: 30px;
+    width: 100%;
+    background-color: #ce4d39;
+}
+
+/* text child animation */
+.cool{
+    padding-left: 33%;
+    padding-top: 5px;
+    color:white;
+    animation: text 1s alternate infinite;
+    position: absolute;
+}
+
+.cool:hover{
+    font-size: 15px;
+}
+
+@keyframes text {
+   from {left: 0;}
+   to{ left: 100px;}
+}
